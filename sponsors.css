@@ -1,44 +1,34 @@
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    background-color: black;
-    background-image: linear-gradient(to left, rgb(128, 128, 128), rgba(0, 0, 0, 0.351) );
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-  }
-  
-  .ul-nav {
-      list-style-type: none;
-      /*margin: 0;
-      /*padding: 0;
-      overflow: hidden;
-      /*background-color: black;
-      background-image: linear-gradient(to left, rgb(128, 128, 128), rgba(0, 0, 0, 0.351) );*/
-    }
-    
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 20px 18px;
-      text-decoration: none;
-    }
-    
-    li a:hover {
-      background-color: #111;
-    }
-  
-    li a:active {
-      background-color: white;
-      color: black;
-    }
+.container-fluid {
+  margin-top: -85px !important;
+  margin-bottom: 0px;
+  background-color: black !important;
+  padding: 16px;
+ }
+
+ #navbar2 {
+  background-color: black !important;
+ }
+
+ .navbar-brand {
+  background-color: black !important;
+  color: white !important;
+ }
+ .navbar-toggler {
+  background-color: white !important;
+ }
+
+ .navbar-toggler-icon {
+  background-color: white !important;
+ }
+
+ .nav-link {
+  color: white !important;
+  margin-top: 10px;
+ }
+
+ #navlogo {
+  border-radius: 40%;
+ }
   
     #boujeethyme {
       height: 650px;
@@ -182,3 +172,9 @@ nav {
     }
   }
   
+  @media only screen and (max-width: 480px) {
+    .bd-placeholder-img, .rounded-circle {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }

@@ -1,40 +1,38 @@
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    
-  }
-  
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: black;
-      background-image: linear-gradient(to left, rgb(128, 128, 128), rgba(0, 0, 0, 0.351) );
-    }
-    
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 20px 18px;
-      text-decoration: none;
-    }
-    
-    li a:hover {
-      background-color: #111;
-    }
-  
-    li a:active {
-      background-color: white;
-      color: black;
-    }
+.container-fluid {
+  margin-top: -85px !important;
+  margin-bottom: 0px;
+  background-color: black !important;
+  padding: 16px;
+ }
+
+ #navbar2 {
+  background-color: black !important;
+ }
+
+ .navbar-brand {
+  background-color: black !important;
+  color: white !important;
+ }
+ .navbar-toggler {
+  background-color: white !important;
+ }
+
+ .navbar-toggler-icon {
+  background-color: white !important;
+ }
+
+ .nav-link {
+  color: white !important;
+  margin-top: 10px;
+ }
+
+ #navlogo {
+  border-radius: 40%;
+ }
+
+ .d-block, .w-100 {
+  height: 650px;
+ }
   
     .upcoming-clinic {
       text-align: center;
@@ -42,9 +40,8 @@ nav {
       margin-top: 7px;
     }
   
-    /*footer {
-      text-align: center;
-      background-image: linear-gradient(to left, rgb(128, 128, 128), rgba(0, 0, 0, 0.351) );
+    footer {
+      text-align: center;  
       background-color: #111;
       color: white;
       padding: 0.5px;
@@ -52,13 +49,13 @@ nav {
       left: 0;
       bottom: 0;
       width: 100%;
-    } */
+    } 
   
   .frame {
     width: 600px;
     height: 40px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   
     iframe {
@@ -162,3 +159,10 @@ nav {
     }
   }
   
+
+  @media only screen and (max-width: 480px) {
+    .d-block, .w-100 {
+    width: 100%;
+    height: 100%;
+    }
+  }

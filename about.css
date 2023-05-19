@@ -209,10 +209,4 @@ nav {
       margin-top: 7rem;
     }
   }
-
-  @media (max-width: 600px) {
-    nav {
-      flex-direction: row;
-    }
-  }
   

@@ -1,4 +1,4 @@
-nav {
+/*nav {
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,7 +10,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+   /* background-color: black;
     background-image: linear-gradient(to left, rgb(128, 128, 128), rgba(0, 0, 0, 0.351) );
   }
   
@@ -33,7 +33,46 @@ ul {
   li a:active {
     background-color: white;
     color: black;
-  }
+  } */
+
+ .container-fluid {
+  margin-top: -85px !important;
+  margin-bottom: 0px;
+  background-color: black !important;
+  padding: 16px;
+ }
+
+ #navbar2 {
+  background-color: black !important;
+ }
+
+ .navbar-brand {
+  background-color: black !important;
+  color: white !important;
+ }
+ .navbar-toggler {
+  background-color: white !important;
+ }
+
+ .navbar-toggler-icon {
+  background-color: white !important;
+ }
+
+ .nav-link {
+  color: white !important;
+  margin-top: 10px;
+ }
+
+ #navlogo {
+  border-radius: 40%;
+ }
+ 
+
+ 
+
+
+
+ 
 
   .welcome {
     text-align: center;
@@ -41,11 +80,12 @@ ul {
 
   .upcoming-clinic {
     text-align: center;
+    margin-bottom: 100px;
   }
 
   footer {
     text-align: center;
-    background-image: linear-gradient(to left, rgb(128, 128, 128), rgba(0, 0, 0, 0.351) );
+    /*background-image: linear-gradient(to left, rgb(128, 128, 128), rgba(0, 0, 0, 0.351) );*/
     background-color: #111;
     color: white;
     padding: 10px;

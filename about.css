@@ -217,9 +217,23 @@
     .about-us {
       margin-top: -71px;
       text-align: center;
+      margin-left: 55px;
+      margin-right: 55px;
     }
+
+    .about-p {
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
     .meet-us {
       text-align: center;
+    }
+    .meetus-h1 {
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
     }
     .about-img-melvin, .about-img, .about-img-greg, .about-img-jonovan{
       margin-left: auto;
@@ -231,7 +245,25 @@
       margin-left: 45px !important;
     }
     #greg-h2, #justin-h2 {
-      margin-left: 125px !important;
+      margin-left: 127px !important;
+    }
+
+    #p-lead {
+      text-align: center;
+      margin-left: 45px;
+      margin-right: 45px;
+    }
+
+    #p-lead2 {
+      text-align: center;
+      margin-left: 35px;
+      margin-right: 35px;
+    }
+
+    #melvin-h2 {
+      text-align: center;
+      margin-right: 50px;
+      margin-left: 50px;
     }
   }
   
